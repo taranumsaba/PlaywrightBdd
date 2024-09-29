@@ -9,9 +9,7 @@ def before_all(context):
     context.page.set_viewport_size({"width": 1560, "height": 1200})
     # Creating Baseclass object this can be used in all the pages
     context.base_instance = BaseClass()
-    context.page.goto("")
-    context.page.set_viewport_size({"width": 1520, "height": 500})
-    #context.page.keyboard.
+    
 
 
 
